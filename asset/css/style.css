@@ -4,19 +4,24 @@
     box-sizing: border-box;
 }
 
-.debug header{
-    /* background: green; */
-    /* height: 70px;
-    padding: 0px 0; */
-}
-
 .debug *{
     border: 1px dotted;
 }
 
-.bg-header{
+.debug header{
     background: green;
-    min-height: 50px;
+}
+
+.purple{
+    background: rgb(42, 10, 78);
+    padding: 20px 100px;
+}
+.lg{
+    background: lightgreen;
+}
+.pink{
+    background-color: pink;
+    height: 300px;
 }
 
 /* #region common */
@@ -28,7 +33,6 @@
 .container{
     margin: auto;
     width: 60%;
-    background: lightgreen;
 }
 
 .mtb-10{
@@ -54,6 +58,11 @@
 .links{
     display: flex;
     justify-content: center;
+}
+
+
+.setup{
+    height: 300px;
 }
 
 /* #endregion header */
