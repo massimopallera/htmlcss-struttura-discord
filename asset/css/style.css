@@ -5,7 +5,7 @@
 }
 
 .debug *{
-    border: 1px dotted;
+    border: 2px dotted;
 }
 
 .debug header{
@@ -80,7 +80,7 @@ main .grey .container{
     background-color: white;
 }
 .grey:nth-child(2n){
-    background-color: grey;
+    background-color: darkgray;
 }
 
 .lb{
@@ -90,6 +90,10 @@ main .grey .container{
 .lp{
     background: lightpink;
 }
+.dg{
+    background: grey;
+}
+
 .small{
     width: 40%;
     height: 100%;
@@ -102,4 +106,21 @@ main .grey .container{
 .square{
     width: 100%;
     height: 100%;
+}
+
+.violet{
+    background-color: violet;
+    width: 40%;
+}
+.aqua{
+    background-color: aqua;
+    width: 15%;
+}
+.aqua,.violet{
+    height: 400px;
+    /* width: 100px; */
+}
+
+.dg {
+    padding: 10px 0 20px;
 }
