@@ -34,6 +34,9 @@
     margin: auto;
     width: 60%;
 }
+main .grey .container{
+    height: 300px;
+}
 
 .mtb-10{
  margin-top: 10px;
@@ -66,3 +69,37 @@
 }
 
 /* #endregion header */
+
+/* MAIN */
+.grey{
+    /* background-color: grey; */
+    padding: 20px 0;
+}
+
+.grey:nth-child(2n+1){
+    background-color: white;
+}
+.grey:nth-child(2n){
+    background-color: grey;
+}
+
+.lb{
+    background-color: lightblue;
+}
+
+.lp{
+    background: lightpink;
+}
+.small{
+    width: 40%;
+    height: 100%;
+}
+
+.big{
+    width: 60%;
+    height: 100%;
+}
+.square{
+    width: 100%;
+    height: 100%;
+}
