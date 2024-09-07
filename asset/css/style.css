@@ -11,7 +11,7 @@
 .debug header{
     background: green;
 }
-.debug main .container{
+.debug main .container, .pink{
     height: 300px;
 }
 .purple{
