@@ -26,7 +26,7 @@
 
 /* #region common */
 
-.d-flex{
+.row{
     display: flex;
 }
 
@@ -34,6 +34,8 @@
     margin: auto;
     width: 60%;
 }
+
+
 main .grey .container{
     height: 300px;
 }
@@ -94,12 +96,12 @@ main .grey .container{
     background: grey;
 }
 
-.small{
+.col-small{
     width: 40%;
     height: 100%;
 }
 
-.big{
+.col-big{
     width: 60%;
     height: 100%;
 }
