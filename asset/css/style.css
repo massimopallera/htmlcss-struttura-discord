@@ -14,14 +14,14 @@
 .debug main .container, .pink{
     height: 300px;
 }
-.purple{
+.debug header section{
     background: rgb(42, 10, 78);
     padding: 20px 100px;
 }
-.lg{
+.debug nav .container{
     background: lightgreen;
 }
-.pink{
+.debug header section .row{
     background-color: pink;
     height: 300px;
 }
@@ -69,25 +69,30 @@
     padding: 20px 0;
 }
 
-.grey{
+.debug main section{
     background-color: grey;
 }
 
-.grey:nth-child(2n+1){
+.debug main section:nth-child(2n+1){
     background-color: white;
 }
-.grey:nth-child(2n){
+.debug main section:nth-child(2n){
     background-color: darkgray;
 }
 
-.lb{
+.debug .col-big{
     background-color: lightblue;
 }
 
-.lp{
+.debug .col-small{
     background: lightpink;
 }
-.dg{
+
+.debug .w-100{
+    background-color: green;
+}
+
+.debug footer section{
     background: grey;
 }
 
@@ -107,12 +112,18 @@
     width: 100%;
 }
 
-.w-40{
+.debug .w-40{
     background-color: violet;
+}
+
+.debug .w-15{
+    background-color: aqua;
+}
+
+.w-40{
     width: 40%;
 }
 .w-15{
-    background-color: aqua;
     width: 15%;
 }
 
