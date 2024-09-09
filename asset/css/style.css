@@ -8,14 +8,14 @@
 
 /* #region debug */
 .debug *{
-    border: 2px dotted;
+    border: 1px dotted;
 }
 
 .debug header{
     background: green;
 }
 
-.debug main .container, .pink{
+.debug main .container{
     height: 300px;
 }
 
